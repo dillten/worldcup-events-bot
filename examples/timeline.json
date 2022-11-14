@@ -1,0 +1,979 @@
+{
+    "IdStage": "282707",
+    "IdMatch": "400212389",
+    "IdCompetition": "520",
+    "IdSeason": "282685",
+    "IdGroup": null,
+    "Event": [
+        {
+            "Context": null,
+            "EventId": "35683080",
+            "Guid": null,
+            "IdTeam": null,
+            "IdPlayer": null,
+            "IdSubPlayer": null,
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T18:47:14.317Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "0'",
+            "Period": 3,
+            "HomeGoals": 0,
+            "AwayGoals": 0,
+            "Type": 7,
+            "Qualifiers": [],
+            "TypeLocalized": [],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "The referee signals the start of the first period."
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683086",
+            "Guid": null,
+            "IdTeam": "43973",
+            "IdPlayer": "201291332",
+            "IdSubPlayer": null,
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T18:52:14.317Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "5'",
+            "Period": 3,
+            "HomeGoals": 0,
+            "AwayGoals": 0,
+            "Type": 2,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Yellow card"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Yaremchuk (Ukraine) is booked by the referee."
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683088",
+            "Guid": null,
+            "IdTeam": "43973",
+            "IdPlayer": "405278",
+            "IdSubPlayer": null,
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T18:58:14.317Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "11'",
+            "Period": 3,
+            "HomeGoals": 0,
+            "AwayGoals": 0,
+            "Type": 2,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Yellow card"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Malinovskiy (Ukraine) is booked by the referee."
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683104",
+            "Guid": null,
+            "IdTeam": "43973",
+            "IdPlayer": "299672",
+            "IdSubPlayer": "405278",
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T19:20:14.317Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "33'",
+            "Period": 3,
+            "HomeGoals": 0,
+            "AwayGoals": 1,
+            "Type": 0,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Goal!"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Yarmolenko (Ukraine) scores!!"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683114",
+            "Guid": null,
+            "IdTeam": "43967",
+            "IdPlayer": "400086960",
+            "IdSubPlayer": null,
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T19:32:14.317Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "45'",
+            "Period": 3,
+            "HomeGoals": 0,
+            "AwayGoals": 1,
+            "Type": 2,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Yellow card"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Dykes (Scotland) is booked by the referee."
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683119",
+            "Guid": null,
+            "IdTeam": null,
+            "IdPlayer": null,
+            "IdSubPlayer": null,
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T19:34:41.317Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "45'+3'",
+            "Period": 3,
+            "HomeGoals": 0,
+            "AwayGoals": 1,
+            "Type": 8,
+            "Qualifiers": [],
+            "TypeLocalized": [],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "The referee brings the first period to an end."
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35682979",
+            "Guid": null,
+            "IdTeam": "43967",
+            "IdPlayer": "201162505",
+            "IdSubPlayer": "400086960",
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T19:50:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "46'",
+            "Period": 4,
+            "HomeGoals": 0,
+            "AwayGoals": 1,
+            "Type": 5,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Substitution"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Before the second half begins Christie (in) comes off the bench to replace Dykes (out) (Scotland)"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683132",
+            "Guid": null,
+            "IdTeam": null,
+            "IdPlayer": null,
+            "IdSubPlayer": null,
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T19:50:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "45'",
+            "Period": 5,
+            "HomeGoals": 0,
+            "AwayGoals": 1,
+            "Type": 7,
+            "Qualifiers": [],
+            "TypeLocalized": [],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "The referee signals the start of the second period."
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683138",
+            "Guid": null,
+            "IdTeam": "43973",
+            "IdPlayer": "201291332",
+            "IdSubPlayer": "401243",
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T19:54:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "49'",
+            "Period": 5,
+            "HomeGoals": 0,
+            "AwayGoals": 2,
+            "Type": 0,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Goal!"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Yaremchuk (Ukraine) scores!!"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683144",
+            "Guid": null,
+            "IdTeam": "43967",
+            "IdPlayer": "401334",
+            "IdSubPlayer": null,
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:04:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "59'",
+            "Period": 5,
+            "HomeGoals": 0,
+            "AwayGoals": 2,
+            "Type": 2,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Yellow card"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "J. McGinn (Scotland) is booked by the referee."
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35682980",
+            "Guid": null,
+            "IdTeam": "43967",
+            "IdPlayer": "201210287",
+            "IdSubPlayer": "407493",
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:13:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "68'",
+            "Period": 5,
+            "HomeGoals": 0,
+            "AwayGoals": 2,
+            "Type": 5,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Substitution"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Hendry (in) comes off the bench to replace Cooper (out) (Scotland)"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35682983",
+            "Guid": null,
+            "IdTeam": "43967",
+            "IdPlayer": "370416",
+            "IdSubPlayer": "400090280",
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:13:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "68'",
+            "Period": 5,
+            "HomeGoals": 0,
+            "AwayGoals": 2,
+            "Type": 5,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Substitution"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Armstrong (in) comes off the bench to replace Gilmour (out) (Scotland)"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35682998",
+            "Guid": null,
+            "IdTeam": "43973",
+            "IdPlayer": "201935817",
+            "IdSubPlayer": "402107",
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:17:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "72'",
+            "Period": 5,
+            "HomeGoals": 0,
+            "AwayGoals": 2,
+            "Type": 5,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Substitution"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Mudryk (in) comes off the bench to replace Tsyhankov (out) (Ukraine)"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683010",
+            "Guid": null,
+            "IdTeam": "43973",
+            "IdPlayer": "201378546",
+            "IdSubPlayer": "405278",
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:17:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "72'",
+            "Period": 5,
+            "HomeGoals": 0,
+            "AwayGoals": 2,
+            "Type": 5,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Substitution"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Shaparenko (in) comes off the bench to replace Malinovskiy (out) (Ukraine)"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35682994",
+            "Guid": null,
+            "IdTeam": "43973",
+            "IdPlayer": "201528491",
+            "IdSubPlayer": "201291332",
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:23:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "78'",
+            "Period": 5,
+            "HomeGoals": 0,
+            "AwayGoals": 2,
+            "Type": 5,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Substitution"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Dovbyk (in) comes off the bench to replace Yaremchuk (out) (Ukraine)"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683014",
+            "Guid": null,
+            "IdTeam": "43973",
+            "IdPlayer": "201402447",
+            "IdSubPlayer": "299672",
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:23:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "78'",
+            "Period": 5,
+            "HomeGoals": 0,
+            "AwayGoals": 2,
+            "Type": 5,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Substitution"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Zubkov (in) comes off the bench to replace Yarmolenko (out) (Ukraine)"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683149",
+            "Guid": null,
+            "IdTeam": "43967",
+            "IdPlayer": "407492",
+            "IdSubPlayer": null,
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:24:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "79'",
+            "Period": 5,
+            "HomeGoals": 1,
+            "AwayGoals": 2,
+            "Type": 0,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Goal!"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "McGregor (Scotland) scores!!"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683153",
+            "Guid": null,
+            "IdTeam": "43973",
+            "IdPlayer": "201378546",
+            "IdSubPlayer": null,
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:29:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "84'",
+            "Period": 5,
+            "HomeGoals": 1,
+            "AwayGoals": 2,
+            "Type": 2,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Yellow card"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Shaparenko (Ukraine) is booked by the referee."
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683012",
+            "Guid": null,
+            "IdTeam": "43973",
+            "IdPlayer": "376347",
+            "IdSubPlayer": "359944",
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:38:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "90'+3'",
+            "Period": 5,
+            "HomeGoals": 1,
+            "AwayGoals": 2,
+            "Type": 5,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Substitution"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Sydorchuk (in) comes off the bench to replace Stepanenko (out) (Ukraine)"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683164",
+            "Guid": null,
+            "IdTeam": "43973",
+            "IdPlayer": "201528491",
+            "IdSubPlayer": "401018",
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:40:12.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "90'+5'",
+            "Period": 5,
+            "HomeGoals": 1,
+            "AwayGoals": 3,
+            "Type": 0,
+            "Qualifiers": [],
+            "TypeLocalized": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Goal!"
+                }
+            ],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "Dovbyk (Ukraine) scores!!"
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "35683165",
+            "Guid": null,
+            "IdTeam": null,
+            "IdPlayer": null,
+            "IdSubPlayer": null,
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:40:26.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "90'+6'",
+            "Period": 5,
+            "HomeGoals": 1,
+            "AwayGoals": 3,
+            "Type": 8,
+            "Qualifiers": [],
+            "TypeLocalized": [],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "The referee brings the second period to an end."
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        },
+        {
+            "Context": null,
+            "EventId": "-9223372036854775808",
+            "Guid": null,
+            "IdTeam": null,
+            "IdPlayer": null,
+            "IdSubPlayer": null,
+            "IdPerson": null,
+            "IdSubTeam": null,
+            "Timestamp": "2022-06-01T20:40:26.83Z",
+            "DateTimeUTC": null,
+            "MatchMinute": "90'+6'",
+            "Period": 5,
+            "HomeGoals": 1,
+            "AwayGoals": 3,
+            "Type": 26,
+            "Qualifiers": [],
+            "TypeLocalized": [],
+            "PositionX": null,
+            "PositionY": null,
+            "GoalGatePositionX": null,
+            "GoalGatePositionY": null,
+            "GoalGatePositionZ": null,
+            "VarDetail": null,
+            "VarNotificationData": null,
+            "HomePenaltyGoals": 0,
+            "AwayPenaltyGoals": 0,
+            "EventDescription": [
+                {
+                    "Locale": "en-GB",
+                    "Description": "The final whistle sounds."
+                }
+            ],
+            "FoulParty": null,
+            "IdFoulOffendedPlayer": null,
+            "IdFoulOffendedTeam": null,
+            "PenaltyParty": null,
+            "IdPenaltyPlayerCausing": null,
+            "IdPenaltyTeamCausing": null
+        }
+    ],
+    "Properties": {
+        "GracenoteIfesId": "131828",
+        "IdInfostrada": "2568553"
+    },
+    "IsUpdateable": null
+}
