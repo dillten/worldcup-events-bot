@@ -1,9 +1,15 @@
 require('dotenv').config();
+const { WebClient } = require('@slack/web-api');
 const fs = require('fs')
 
 // Match database file
 const CACHE_FILE = './cache.json';
 let db = JSON.parse(fs.readFileSync(CACHE_FILE, 'utf8'));
+
+// Slack Config
+const slackToken = process.env.SLACK_TOKEN
+const slackWebApi = new WebClient(slackToken);
+const slackChannel = process.env.SLACK_CHANNEL_ID
 
 const FIFA_COMPETITION_ID = 17 // World Cup 2022 Qatar
 const FIFA_SEASON_ID = 255711  // 2022 World Cup Season ID
@@ -60,8 +66,17 @@ const getApiData = async (url) => {
     return data.Results;
 }
 
+const sendMessage = async(messageBody) => {
+    console.log(`MSG: ${messageBody}`);
+    await slackWebApi.chat.postMessage({
+        channel: slackChannel,
+        text: messageBody
+    })
+}
+
 const main = async () => {
     const matches = await getApiData(`https://api.fifa.com/api/v1/calendar/matches?idCompetition=${FIFA_COMPETITION_ID}&idSeason=${FIFA_SEASON_ID}&count=500`);
+    await sendMessage('Data loaded from FIFA.');
 
     // Find Live Matches and Update Text Score
     matches.forEach(match => {
@@ -91,7 +106,7 @@ const main = async () => {
                 console.log(`Cache Exists ${match['IdMatch']}`);
             }
 
-            console.log(`:zap: Match ${match.IdMatch} is live! ${match.Home.TeamName[0].Description} vs ${match.Away.TeamName[0].Description}`);
+            sendMessage(`:zap: Match ${match.IdMatch} is live! ${match.Home.TeamName[0].Description} vs ${match.Away.TeamName[0].Description}`);
         }
 
         // Record in the file
@@ -135,57 +150,57 @@ const main = async () => {
                     case EVENT_PERIOD_START:
                         switch (period) {
                             case PERIOD_1ST_HALF:
-                                console.log(`:zap: Match Starting - ${homeTeamName} v. ${awayTeamName}`);
+                                sendMessage(`:zap: Match Starting - ${homeTeamName} v. ${awayTeamName}`);
                                 break;
                             case PERIOD_2ND_HALF:
                             case PERIOD_1ST_ET:
                             case PERIOD_2ND_ET:
                             case PERIOD_PENALTY:
-                                console.log(`:runner: Period Starting - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
+                                sendMessage(`:runner: Period Starting - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
                                 break;
                         }
                     // Period End Events
                     case EVENT_PERIOD_END:
                         switch (period) {
                             case PERIOD_1ST_HALF:
-                                console.log(`:zap: End of 1st Half - ${homeTeamName} v. ${awayTeamName}`);
+                                sendMessage(`:zap: End of 1st Half - ${homeTeamName} v. ${awayTeamName}`);
                                 break;
                             case PERIOD_2ND_HALF:
-                                console.log(`:zap: End of 2nd Half - ${homeTeamName} v. ${awayTeamName}`);
+                                sendMessage(`:zap: End of 2nd Half - ${homeTeamName} v. ${awayTeamName}`);
                                 break;
                             case PERIOD_1ST_ET:
-                                console.log(`:zap: End of 1st Extra Time - ${homeTeamName} v. ${awayTeamName}`);
+                                sendMessage(`:zap: End of 1st Extra Time - ${homeTeamName} v. ${awayTeamName}`);
                                 break;
                             case PERIOD_2ND_ET:
-                                console.log(`:zap: End of 2nd Extra Time - ${homeTeamName} v. ${awayTeamName}`);
+                                sendMessage(`:zap: End of 2nd Extra Time - ${homeTeamName} v. ${awayTeamName}`);
                                 break;
                             case PERIOD_PENALTY:
-                                console.log(`:runner: End of Penalty Kicks - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
+                                sendMessage(`:runner: End of Penalty Kicks - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
                                 break;
                         }
                     // Goal Events
                     case EVENT_GOAL:
                     case EVENT_FREE_KICK_GOAL:
                     case EVENT_PENALTY_GOAL:
-                        console.log(`:soccer: Goal - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
+                        sendMessage(`:soccer: Goal - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
                         break;
                     case EVENT_OWN_GOAL:
-                        console.log(`:soccer: Own Goal - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
+                        sendMessage(`:soccer: Own Goal - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
                         break;
                     // Card Events
                     case EVENT_YELLOW_CARD:
-                        console.log(`:soccer: Yellow Card - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
+                        sendMessage(`:soccer: Yellow Card - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
                         break;
                     case EVENT_SECOND_YELLOW_CARD_RED:
                     case EVENT_STRAIGHT_RED:
-                        console.log(`:soccer: Red Card - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
+                        sendMessage(`:soccer: Red Card - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
                         break;
                     // Penalty Events
                     case EVENT_FOUL_PENALTY:
                     case EVENT_PENALTY_MISSED:
                     case EVENT_PENALTY_SAVED:
                     case EVENT_PENALTY_HIT_CROSSBAR:
-                        console.log(`:soccer: Penalty - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
+                        sendMessage(`:soccer: Penalty - ${matchTime} - ${homeTeamName} v. ${awayTeamName}`);
                         break;
                     
                     
